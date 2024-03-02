@@ -1,0 +1,125 @@
+@import url("https://fonts.google.com/specimen/Outfit");
+
+ root{
+    color:hsl(0, 0%, 100%);
+    color: hsl(330, 100%, 98%);
+    color: hsl(30, 54%, 90%);
+    color: hsl(30, 18%, 87%);
+    color:hsl(30, 10%, 34%);
+    color: hsl(24, 5%, 18%);
+    color:hsl(332, 51%, 32%);
+    color:hsl(14, 45%, 36%);
+} 
+html{
+    background-color: hsl(30, 54%, 90%);
+    scroll-behavior: smooth;
+}
+body{
+    margin: 100px 250px 100px 250px;
+    padding: 20px;
+}
+article{
+    background-color: hsl(0, 0%, 100%);;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 10px;
+    width: 600px;
+}
+img{
+    width:600px;
+    height: 300px;
+}
+.heading{
+    color: hsl(24, 5%, 18%);
+    font-family:"Young Serif";
+    font-weight:400;
+    font-size: 2rem;
+}
+p{
+    color:hsl(24, 5%, 18%);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "outfit";
+}
+.preparation{
+    background-color:hsl(330, 100%, 98%);
+    padding: 10px;
+}
+.preparation h2{
+    font-size: 16px;
+    color:hsl(332, 51%, 32%);
+    font-family: "outfit semibold";
+    font-weight: 600;
+    padding-left: 10px;
+}
+ul{
+    list-style-type:disc;
+}
+.preparation ul li{
+    padding: 5px;
+    font-family:"outfit extralight";
+    font-weight: 600;
+}
+span{
+    color: hsl(332, 51%, 32%);
+    font-family: "outfit regular";
+    font-weight: 600;
+}
+h2{
+    font-family: "young serif";
+    color:hsl(14, 45%, 36%);
+    font-weight: 400;
+    padding:10px;
+}
+.ingredients ul{
+    list-style-type: disc;
+    color: hsl(14, 45%, 36%);
+}
+.ingredients ul li{
+    padding:5px;
+    font-family:"outfit regular";
+    font-weight: 400;
+    color:hsl(30, 10%, 34%);
+}
+.instructions ol{
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+    font-family:outfit regular;
+}
+.in{
+    font-weight:600;
+    color:hsl(30, 10%, 34%);
+    font-size: 14px;
+}
+.instructions ol li{
+    padding: 5px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+table td{
+    color:hsl(30, 10%, 34%);
+    font-weight: 400;
+    font-family: outfit regular;
+    padding: 5px 5px 5px 5px;
+}
+.nutrition p{
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+.data{
+    color:hsl(14, 45%, 36%);
+    font-family: outfit regular;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: left;
+}
+.attribution{
+    text-align: center;
+}
+table tr td:nth-child(2){
+    padding:5px 5px 5px 400px;
+}
+tr{
+    border-bottom: 5px solid black;
+    border-width:500px ;
+}
